@@ -31,6 +31,15 @@ export default function Hero() {
       {/* Redes y Contacto */}
       <Stack direction="row" spacing={2} justifyContent="center" sx={{ mb: 4 }}>
         <Link
+          href="https://github.com/iperezmx87/micurriculumvitae"
+          target="_blank"
+          color="inherit"
+          alt="Repositorio del CV en GitHub"
+        >
+          <GitHubIcon fontSize="large" />
+        </Link>
+
+        <Link
           href="https://github.com/iperezmx87"
           target="_blank"
           color="inherit"
